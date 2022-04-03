@@ -329,11 +329,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   count: 0
-  positionSetting: {fileID: 0}
-  scaleSetting: {fileID: 0}
-  rotationSetting: {fileID: 0}
-  stepRotationSetting: {fileID: 0}
-  radiusSetting: {fileID: 0}
+  model: {fileID: 3523272071043443158, guid: 1b347cfec23a6ed4b81028d1f4ae9762, type: 3}
+  initialCount: 0
+  k: 0
+  posFoldout: 1
+  scaleFoldout: 1
+  rotFoldout: 1
+  stepFoldout: 1
+  radiusFoldout: 1
+  positionSetting: {fileID: 11400000, guid: 3f34198564d8fa246a91c43968d3f15d, type: 2}
+  scaleSetting: {fileID: 11400000, guid: 7643169d30bbc364282cae59f3f3e9f0, type: 2}
+  rotationSetting: {fileID: 11400000, guid: 903ac8b34dda79b40918d9741aad5f81, type: 2}
+  stepRotationSetting: {fileID: 11400000, guid: 46efc21600fc34d468bfec0901183ec2, type: 2}
+  radiusSetting: {fileID: 11400000, guid: 334652fae60c0f140b2fc7cb5ed4e806, type: 2}
+  typeInd: 0
+  clonerType:
+  - Linear
+  - Radial
 --- !u!4 &1866006981
 Transform:
   m_ObjectHideFlags: 0
